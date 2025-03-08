@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+<div class="row">
+    <div class="col-md-6 name">
+        <h6 class="text-center">Hi There,</h6>
+        <h2 class="text-center font">I'm<span style="color:  #f4b334; padding-left: 15px;">Dhileep Kumar</span></h2>
+        <h5 class="text-center">Python Full Stack Developer</h5>
+        <div>
+            <a href="https://wa.me/+916385695558?text=Hi dhileep !!!"
+                target="_blank"><button class="btns">connect with me</button></a>
+             
+          </div>
+    </div>
+
+    <div class="col-md-6 images">
+        <img class="image" src="{% static './images/my img.jpg.png' %}" alt="profile">   
+    </div>
+
+  
+</div>
+
+<div class="rows order">
+    <div class="col-md-12">
+    <ul class="d-flex flex-row gap-3">
+        <h5>check out my:</h5>
+
+        <a href="https://www.instagram.com/_mr.alan_zz/" target="_blank"><i class="fa-brands fa-instagram fs-3 hover_icon"></i></a>
+
+        <a href="https://www.linkedin.com/in/dhileep21/" target="_blank"><i class="fa-brands fa-linkedin fs-3 hover_icon"></i></a>
+
+        <a href="https://github.com/Dhileep2000" target="_blank"><i class="fa-brands fa-github fs-3 hover_icon"></i></a>
+
+        <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><i class="fa-solid fa-envelope fs-3 hover_icon"></i></a>
+     </ul>
+    </div>
+   
+</div>
+
+
+
+
+
+
+{% endblock %}

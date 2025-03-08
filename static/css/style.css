@@ -1,0 +1,158 @@
+.body{
+    background-color:black;
+    color: white;
+}
+.nav-link:hover{
+
+    color:yellow;
+}
+
+.nav-link{
+
+    color:white;
+    font-size: 100%;
+  
+}
+.navbar-nav{
+    padding-right: 200px;
+}
+.navbar-brand {
+    margin-right: 300px;
+    margin-left: 60px;
+    height: 70px;
+    width: 70px;
+    overflow: hidden;
+    border-radius: 100%;
+}
+.btn{
+    margin-left: 160px;
+    background-color: #f4b334;
+    font-size: 100%;
+    border-radius: 100px;
+}
+.btn:hover{
+    background-color: #A6AEBF;
+    color:rgb(245, 242, 242);
+}
+
+.image{
+    margin-top: 80px;
+    margin-left:100px;
+    width: 270px;
+    height:270px;
+    border-radius: 50%;
+}
+
+.name{
+    margin-top: 130px;
+}
+.font{
+    font-size: 270%;
+}
+.btns{
+    background-color: #f4b334;
+    margin-left: 240px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 100%;
+    border-radius: 100px;
+}
+.btns:hover{
+    background-color: #A6AEBF;
+    color:rgb(245, 242, 242);
+}
+.order{
+    padding-top: 200px;
+}
+.hover_icon:hover {
+    color:#f4b334;
+}
+.hover_icon{
+    color:#A6AEBF;
+}
+
+
+
+
+
+
+
+.image-about{
+    margin-left: 140px;
+    margin-top: 70px;
+    width: 260px;
+    height: 260px;
+}
+.para{
+    margin-left: 30px;
+    margin-right: 120px;
+}
+.about-logo1{
+    margin-top: 7px;
+    height: 45px;
+    width:45px;
+    border-radius: 50%;
+}
+.about-logo2{
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+}
+.about-logo3{
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+}
+.about-logo4{
+    height: 39px;
+    width:39px;
+    border-radius: 50%;
+}
+.about-logo5{
+    height: 60px;
+    width:60px;
+    border-radius: 50%;
+}
+.about-logo6{
+    height: 45px;
+    width:45px;
+    border-radius: 50%;
+}
+.about-logo7{
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+.lead{
+    margin-top: 50px;
+    background-color: #434344;
+    border-radius: 7px;
+    padding: 30px;
+}
+
+
+
+
+
+
+
+
+.btnz{
+    padding: 9px;
+    background-color: #f4b334;
+    font-size: 100%;
+    border-radius: 100px;
+}
+.btnz:hover{
+    background-color: #A6AEBF;
+    color:rgb(245, 242, 242);
+}
+.connect{
+    margin-top: 105px;
+}

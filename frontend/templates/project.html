@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+<div class="row ms-5">
+    {% for project in context %}
+    <div class="col-6">
+       <h4 class="py-3">{{project.title}}</h4> 
+    <img src="{% static project.path %}" alt="img" width="450" height="200" class="image-pro">
+
+    </div>
+    {% endfor %}
+</div>
+
+
+
+
+
+
+
+
+{% endblock %}

@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+
+<div class="row">
+
+    {% for item in context %}
+
+    <div class="col lead">
+        <h2>{{item.certification}}</h2>
+        <p>{{item.position}}</p>
+    </div>
+
+    {% endfor %}
+
+   </div>
+
+
+
+
+
+
+
+{% endblock %}
